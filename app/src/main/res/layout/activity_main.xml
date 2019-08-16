@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/hindi"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:padding="16dp"
+        android:background="#4CAF50"
+        android:text="Hindi Songs"
+        android:textSize="25sp"
+        android:textColor="#FFFFFF"
+         />
+    <View
+        android:layout_width="1dp"
+        android:layout_height="1dp"/>
+
+    <TextView
+        android:id="@+id/english"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:padding="16dp"
+        android:background="#FFEB3B"
+        android:text="English Songs"
+        android:textSize="25sp"
+        android:textColor="#FFFFFF" />
+    <View
+        android:layout_width="1dp"
+        android:layout_height="1dp"/>
+
+    <TextView
+        android:id="@+id/punjabi"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:padding="16dp"
+        android:background="#FF5722"
+        android:text="Punjabi Songs"
+        android:textSize="25sp"
+        android:textColor="#FFFFFF" />
+    <View
+        android:layout_width="1dp"
+        android:layout_height="1dp"/>
+
+</LinearLayout>
